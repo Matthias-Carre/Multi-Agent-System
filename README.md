@@ -2,6 +2,13 @@
 
 Une simulation multi-agents en Python avec Pygame où des agents collaborent pour construire un pont et atteindre un objectif.
 
+## Lancement
+
+```bash
+cd Game
+python main.py
+```
+
 ## Description
 
 Dans cette simulation, trois types d'agents travaillent ensemble pour accomplir une mission : construire un pont au-dessus d'une rivière et atteindre la zone d'arrivée de l'autre côté.
@@ -97,13 +104,6 @@ Créez un fichier `.txt` dans le dossier `maps/` avec le format suivant :
 
 Les arbres sont ajoutés automatiquement sur les cases de terre selon `TREE_DENSITY`.
 L'arrivée est placée automatiquement à droite de la carte.
-
-## Lancement
-
-```bash
-cd Game
-python main.py
-```
 
 ## Dépendances
 
