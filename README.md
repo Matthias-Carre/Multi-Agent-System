@@ -5,7 +5,6 @@ Une simulation multi-agents en Python avec Pygame où des agents collaborent pou
 ## Lancement
 
 ```bash
-cd Game
 python main.py
 ```
 
