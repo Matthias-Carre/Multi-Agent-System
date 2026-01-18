@@ -38,5 +38,5 @@ class Config:
     STUCK_THRESHOLD = 3  # Nombre de tours avant qu'un agent bloqué change de direction (0 = désactivé)
     
     # Carte personnalisée (None = carte par défaut, sinon chemin vers le fichier)
-    MAP_FILE = "./maps/example_map.txt" #"./maps/test01_map.txt" # "./maps/example_map.txt"
+    MAP_FILE = None #"./maps/test01_map.txt" # "./maps/example_map.txt"
     TREE_DENSITY = 0.1  # Densité d'arbres sur les cases simples (0-1)
